@@ -1,0 +1,15 @@
+Lista Encadeada:
+Uma lista encadeada é uma estrutura de dados onde os elementos são organizados em nós. Cada nó contém dois campos principais: um campo de valor (ou dado) que armazena a informação do elemento e um campo de ponteiro que aponta para o próximo nó da lista. Dessa forma, os nós são "encadeados" através dos ponteiros, formando uma sequência.
+Imagine uma lista de compras, onde cada item é um nó da lista encadeada. Cada nó contém o nome do produto (valor) e um ponteiro para o próximo item da lista. Podemos adicionar um novo item no final da lista, conectando o ponteiro do último item ao novo item. Podemos também remover um item da lista, ajustando os ponteiros corretamente.
+
+A vantagem da lista encadeada é que podemos adicionar e remover elementos em qualquer posição sem a necessidade de realocar todos os outros elementos. No entanto, para acessar um elemento em uma posição específica, precisamos percorrer a lista a partir do primeiro nó.
+
+Pilha:
+Uma pilha é uma estrutura de dados onde os elementos são organizados de acordo com o princípio LIFO (Last In, First Out), ou seja, o último elemento inserido é o primeiro a ser removido. Você pode pensar em uma pilha de pratos, onde os pratos são adicionados e removidos do topo da pilha.
+Uma pilha possui duas operações principais:
+
+Push (Inserir): Adiciona um elemento no topo da pilha.
+Pop (Remover): Remove o elemento do topo da pilha.
+Quando adicionamos um elemento na pilha (push), ele se torna o elemento do topo, e quando removemos um elemento (pop), o elemento do topo é removido, expondo o elemento anterior que se torna o novo topo.
+
+A pilha pode ser implementada usando uma lista encadeada ou um vetor. No caso da implementação com lista encadeada, cada nó representa um elemento da pilha e o topo da pilha é mantido pelo ponteiro para o último nó da lista.
